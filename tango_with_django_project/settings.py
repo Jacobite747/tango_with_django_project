@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'r6dm)&nlnnomp1t7wg&#n_^l6yya5!=c36*61bffl2q*$q%$c-'
+SECRET_KEY = 'klo0v8sb**vwa)!a++i*w^0uy%c*02a_u*(s9u*12#!acu1tn5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'tango_with_django_project_app.urls'
+ROOT_URLCONF = 'tango_with_django_project.urls'
 
 TEMPLATES = [
     {
