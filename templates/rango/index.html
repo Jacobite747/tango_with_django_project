@@ -5,6 +5,12 @@
 
         <h1>Rango says...</h1>
         <div>hey there partner!</div>
+        You have viewed this site <strong>{{ visits }} </strong>
+        {% if visits > 1 %}
+            times.
+        {% else %}
+            time. 
+        {% endif %}
        
         <div>
             <h1>Most Liked Categories</h1>
